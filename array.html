@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Array</title>
+    </head>
+    <body onload="displayMenu()">
+        <h2>Druk op de knoppen en maak het perfecte menu.</h2>
+        <h3>Dit is het menu tot nu toe.</h3>
+        <p class="menu-display" id="menu">Sup</p>
+        <input type="button" value="Voeg een item toe. (Aan begin)" onclick="addItemVoor()">
+        <input type="button" value="Voeg een item toe. (Aan einde)" onclick="addItemEind()">
+
+        <input type="button" value="Verwijder een item. (Aan begin)" onclick="removeVoor()">
+        <input type="button" value="Verwijder een item. (Aan einde)" onclick="removeEind()">
+<!--
+        <input type="button" value="Verwijder ingevoerde waarde." onclick="removeSpecific()">
+        <input type="text" placeholder="Nummer te verwijderen" id="input">
+-->
+        <script src="array.js"></script>
+    </body>
+</html>
